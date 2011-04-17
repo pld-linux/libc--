@@ -1,4 +1,4 @@
-%define		revision	128787
+%define		revision	129657
 Summary:	C++ standard library
 Summary(pl.UTF-8):	Biblioteka standardowa C++
 Name:		libc++
@@ -7,7 +7,7 @@ Release:	1
 License:	MIT/UIUC
 Group:		Development
 Source0:	libcxx-%{revision}.tar.xz
-# Source0-md5:	61a9fcd07951998bc8c3203f5c41954d
+# Source0-md5:	53c082f604d3d06c332de5361cbd7933
 BuildRequires:	clang
 BuildRequires:	cmake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
